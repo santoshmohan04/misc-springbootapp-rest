@@ -16,4 +16,9 @@ public class HomeController {
         return "tabimg";
     }
 
+    @GetMapping("/chatui")
+    public String displayAgentChat() {
+        return "chatui";
+    }
+
 }
